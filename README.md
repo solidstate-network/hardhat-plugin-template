@@ -1,4 +1,4 @@
-# Hardhat Plugin Template
+# Solidstate Hardhat Plugin Template
 
 > Note: This repository was generated from a template or is the template itself. To set up a new project, update all values and address all comments marked "TODO" and remove this notice.
 
