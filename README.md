@@ -16,8 +16,9 @@ yarn add --dev todo
 
 Load plugin in Hardhat config:
 
+<!-- TODO: update plugin name and config key -->
+
 ```typescript
-// TODO: update plugin name and config key
 import HardhatPlugin from 'todo';
 
 const config: HardhatUserConfig = {
