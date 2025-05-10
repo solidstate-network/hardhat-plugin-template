@@ -4,8 +4,8 @@ import './type_extensions.js';
 import type { HardhatPlugin } from 'hardhat/types/plugins';
 
 const plugin: HardhatPlugin = {
-  id: pkg.name!,
-  npmPackage: pkg.name!,
+  id: pkg.name,
+  npmPackage: pkg.name,
   tasks: [taskName],
   hookHandlers: {
     config: import.meta.resolve('./hooks/config.js'),
