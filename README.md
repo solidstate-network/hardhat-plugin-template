@@ -9,7 +9,7 @@
 ```bash
 npm install --save-dev todo
 # or
-yarn add --dev todo
+pnpm add -D todo
 ```
 
 ## Usage
@@ -41,14 +41,14 @@ Add configuration under the `hardhatPlugin` key:
 
 ## Development
 
-Install dependencies via Yarn:
+Install dependencies via pnpm:
 
 ```bash
-yarn install
+pnpm install
 ```
 
 Setup Husky to format code on commit:
 
 ```bash
-yarn prepare
+pnpm prepare
 ```
