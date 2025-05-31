@@ -1,4 +1,4 @@
-import pkg from '../package.json';
+import pkg from '../package.json' with { type: 'json' };
 import taskName from './tasks/task.js';
 import './type_extensions.js';
 import type { HardhatPlugin } from 'hardhat/types/plugins';
