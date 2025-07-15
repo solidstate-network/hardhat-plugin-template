@@ -8,12 +8,7 @@ const plugin: HardhatPlugin = {
   npmPackage: pkg.name,
   // TODO: remove the @solidstate/hardhat-solidstate-utils dependency if this is not a Solidstate plugin
   dependencies: [
-    async () => {
-      const { default: HardhatSolidstateUtils } = await import(
-        '@solidstate/hardhat-solidstate-utils'
-      );
-      return HardhatSolidstateUtils;
-    },
+    async () => (await import('@solidstate/hardhat-solidstate-utils')).default,
   ],
   tasks: [taskName],
   hookHandlers: {
