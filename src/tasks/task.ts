@@ -4,5 +4,5 @@ import { task } from 'hardhat/config';
 // TODO: set task parameters
 export default task(TASK_NAME)
   .setDescription('TODO: description')
-  .setAction(import.meta.resolve('../actions/task.js'))
+  .setAction(() => import('../actions/task.js'))
   .build();
