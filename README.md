@@ -19,11 +19,11 @@ Load plugin in Hardhat config:
 <!-- TODO: update plugin name and config key -->
 
 ```typescript
-import HardhatPlugin from 'todo';
+import hardhatPlugin from 'todo';
 
 const config: HardhatUserConfig = {
   plugins: [
-    HardhatPlugin,
+    hardhatPlugin,
   ],
   hardhatPlugin: {
     ... // see table for configuration options
